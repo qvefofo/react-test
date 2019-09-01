@@ -1,10 +1,12 @@
+/**
+ * React 基本用法
+ */
+
 import React from 'react';
 import ReactDOM from 'react-dom';
 // Hash 路由
 // import { HashRouter as Router, Route, Link } from 'react-router-dom'
 import { BrowserRouter as Router, Route, Link, Switch } from 'react-router-dom'
-
-import './index.scss'
 
 class A extends React.Component {
     constructor(props) {
